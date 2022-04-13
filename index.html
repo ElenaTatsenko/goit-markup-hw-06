@@ -332,8 +332,19 @@
             </ul>
 
         </div> 
+        <div class="footer-subscription-wrapper">
+            <h3 class="footer-subscription-form-subtitle">Подпишитесь на рассылку</h3>
+            <form class="footer-subscription-form">
+               <!-- <label class="footer-subscription-form-item" for="">Подпишитесь на рассылку</label> -->
+            <div class="footer-form-item">
+                <input type="email" name="subscription_user_email" class="footer-subscription-input" placeholder="E-mail" required>
+                <button class="footer-subscription-btn" type="submit">Подписаться <svg class="footer-subscription-icon" width="24px" height="24px" ><use href="./images/icons.svg#icon-send"></use></svg></button>
+            </div>
+            </form>
+        </div>
         </div>
     </footer>
+    <!--Модальное окно-->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close-btn" data-modal-close>
