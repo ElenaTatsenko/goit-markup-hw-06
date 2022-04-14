@@ -577,7 +577,6 @@ img {
 .footer-social-wrapper {
   width: 206px;
   height: 80px;
-  margin-left: 70px;
 }
 .footer-social-list-link {
   background-color: rgba(255, 255, 255, 0.1);
@@ -589,6 +588,7 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 .footer-subscription-form-subtitle {
@@ -656,12 +656,10 @@ img {
 .footer-subscription-wrapper {
   width: 570px;
   height: 86px;
-  margin-left: 93px;
 }
 
 .footer-form-item {
   display: flex;
-
 }
 
 /*Портфолио*/
@@ -727,6 +725,9 @@ img {
   background-color: transparent;
   padding: 0;
   cursor: pointer;
+}
+.modal-close-btn:hover .modal-close-icon {
+  fill: var(--accent-color);
 }
 .backdrop.is-hidden {
   opacity: 0;
@@ -836,6 +837,7 @@ img {
   line-height: 1.72;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-top: 20px;
 }
 .contact-form-checkbox-label::before {
   display: inline-block;
@@ -856,6 +858,10 @@ border: none;
 
 .contact-form-checkbox:focus + .contact-form-checkbox-label::before {
   border-color: var(--accent-color);
+}
+
+.accept-conditions-link {
+  color: var(--accent-color);
 }
 .contact-form-submit-btn {
   display: block;
